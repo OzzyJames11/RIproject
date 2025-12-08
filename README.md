@@ -54,3 +54,45 @@ proyecto_rdi/
 ```
 
 ---
+
+
+## Descripción del corpus
+
+El corpus utilizado es **BEIR – FIQA**, que contiene:
+
+- ~57,638 documentos del dominio financiero  
+- Preguntas reales de usuarios sobre finanzas, inversiones, ahorro, impuestos, etc.  
+- Relevancias (qrels) en formato TREC  
+- Acceso vía `ir_datasets`:
+
+```python
+import ir_datasets
+ds = ir_datasets.load("beir/fiqa/test")
+```
+---
+
+## Instalación
+1. Clonar el repositorio
+```bash
+git clone https://github.com/tu-usuario/tu-repo.git
+cd tu-repo
+```
+2. Instalar dependencias
+```bash
+pip install -r requirements.txt
+```
+Dependencias principales:
+- ir_datasets
+- nltk
+- scikit-learn
+- numpy
+- pandas
+- scipy
+- joblib
+
+3️. Descargar el corpus automáticamente
+El corpus se descarga desde ir_datasets al ejecutar el notebook o script:
+```bash
+import ir_datasets
+ds = ir_datasets.load("beir/fiqa/test")
+```
