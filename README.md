@@ -35,7 +35,7 @@ El sistema está construido sobre una librería modular personalizada llamada **
 proyecto_rdi/
 │
 ├── README.md # Documento
-├── informeRI_project.pdf # Informe técnico del proyecto
+├── InformeProyectoRI_LoachaminO_CasaN.pdf # Informe técnico del proyecto
 ├── libJames.py # Librería modular del sistema (índice, TF-IDF, BM25, evaluación, etc.)
 ├── pry1erbimestre_LoachaminO_CasaN.ipynb # Notebook final del proyecto (código completo y ejecuciones)
 └── video1751825848.mp4 # Video demostrativo del sistema funcionando
